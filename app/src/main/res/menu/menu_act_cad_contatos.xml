@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.cursoandroid.agendacontato.agendacontato.ActCadContatos" >
+
+    <item android:id="@+id/nni_ACAO1"
+        android:title="@string/lbl_salvar"
+        android:orderInCategory="100"
+        android:showAsAction="never"/>
+
+    <item android:id="@+id/nni_ACAO2"
+        android:title="@string/lbl_excluir"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:visible="false"/>
+
+
+
+
+
+
+</menu>
